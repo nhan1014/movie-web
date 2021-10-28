@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/lib/bootstrap.css">
+  <link rel="stylesheet" href="/css/Home.css">
+  <link rel="stylesheet" href="/css/Booking.css">
+  <title>Movie Web</title>
+</head>
+
+<body>
+  <div id="navbar"></div>
+  <div class="container" id="movie-container">
+    <div class="container" id="booking-container">
+      <div class="screen"></div>
+
+      <div class="row mt-5">
+        <div class="seat" id="a01"></div>
+        <div class="seat" id="a02"></div>
+        <div class="seat" id="a03"></div>
+        <div class="seat" id="a04"></div>
+        <div class="seat" id="a05"></div>
+        <div class="seat" id="a06"></div>
+        <div class="seat" id="a07"></div>
+        <div class="seat" id="a08"></div>
+      </div>
+      <div class="row">
+        <div class="seat" id="b01"></div>
+        <div class="seat" id="b02"></div>
+        <div class="seat" id="b03"></div>
+        <div class="seat occupied" id="b04"></div>
+        <div class="seat occupied" id="b05"></div>
+        <div class="seat" id="b06"></div>
+        <div class="seat" id="b07"></div>
+        <div class="seat" id="b08"></div>
+      </div>
+      <div class="row">
+        <div class="seat" id="c01"></div>
+        <div class="seat" id="c02"></div>
+        <div class="seat" id="c03"></div>
+        <div class="seat" id="c04"></div>
+        <div class="seat" id="c05"></div>
+        <div class="seat" id="c06"></div>
+        <div class="seat occupied" id="c07"></div>
+        <div class="seat occupied" id="c08"></div>
+      </div>
+      <div class="row">
+        <div class="seat" id="d01"></div>
+        <div class="seat" id="d02"></div>
+        <div class="seat" id="d03"></div>
+        <div class="seat" id="d04"></div>
+        <div class="seat" id="d05"></div>
+        <div class="seat" id="d06"></div>
+        <div class="seat" id="d07"></div>
+        <div class="seat" id="d08"></div>
+      </div>
+      <div class="row">
+        <div class="seat" id="e01"></div>
+        <div class="seat" id="e02"></div>
+        <div class="seat" id="e03"></div>
+        <div class="seat occupied" id="e04"></div>
+        <div class="seat occupied" id="e05"></div>
+        <div class="seat" id="e06"></div>
+        <div class="seat" id="e07"></div>
+        <div class="seat" id="e08"></div>
+      </div>
+      <div class="row">
+        <div class="seat" id="f01"></div>
+        <div class="seat" id="f02"></div>
+        <div class="seat" id="f03"></div>
+        <div class="seat" id="f04"></div>
+        <div class="seat occupied" id="f05"></div>
+        <div class="seat occupied" id="f06"></div>
+        <div class="seat occupied" id="f07"></div>
+        <div class="seat" id="f08"></div>
+      </div>
+    </div>
+
+    <ul class="showcase mt-5">
+      <li>
+        <div class="seat"></div>
+        <small>N/A</small>
+      </li>
+      <li>
+        <div class="seat selected"></div>
+        <small>Selected</small>
+      </li>
+      <li>
+        <div class="seat occupied"></div>
+        <small>Occupied</small>
+      </li>
+    </ul>
+    <p class="text">
+      You have selected <span id="count">0</span> seats for a price of $<span id="total">0</span>
+    </p>
+    <button class="btn btn-warning" id="startBooking">Xác Nhận</i></button>
+  </div>
+  <script src="/lib/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+  <script src="/lib/bootstrap.js"></script>
+  <script src="/js/Booking.js"></script>
+</body>
+
+</html>
